@@ -14,8 +14,8 @@ closeButton.addEventListener('click', function() {
     modalContainer.style.display = 'none'
 })
 
-window.addEventListener('click', function(e) { //This is used to click away the modalContainer if the user clicks anywhere besides the modal container
+window.addEventListener('click', function(e) { 
     if (e.target === modalContainer) {
         modalContainer.style.display = 'none';
     }
-})
+}) //This is used to click away the modalContainer if the user clicks anywhere besides the modal container
